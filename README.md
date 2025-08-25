@@ -1,4 +1,4 @@
- # Zola Becker - Creative Portfolio
+ # Freelancer - Creative Portfolio
 
 A modern, responsive portfolio website built with HTML, CSS, JavaScript, and Python (Flask).
 
