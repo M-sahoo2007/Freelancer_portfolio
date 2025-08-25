@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zola Becker - Creative Portfolio</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">Freelancer Portfolio</div>
+                
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop">
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button class="menu-btn" id="menuBtn">
+                    <svg id="menuIcon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="4" x2="20" y1="6" y2="6"/>
+                        <line x1="4" x2="20" y1="12" y2="12"/>
+                        <line x1="4" x2="20" y1="18" y2="18"/>
+                    </svg>
+                    <svg id="closeIcon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: none;">
+                        <path d="m18 6-12 12"/>
+                        <path d="m6 6 12 12"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <nav class="nav-mobile" id="mobileNav">
+                <a href="#about" class="nav-link-mobile">About</a>
+                <a href="#projects" class="nav-link-mobile">Projects</a>
+                <a href="#services" class="nav-link-mobile">Services</a>
+                <a href="#contact" class="nav-link-mobile">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="about" class="hero-section">
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-content">
+                        <h1 class="hero-title">
+                            Freelancer<br />
+                            Portfolio
+                        </h1>
+                        <div class="hero-text">
+                            <h2 class="hero-subtitle">About Freelancer</h2>
+                            <p class="hero-description">
+                                I'm a creative designer passionate about crafting meaningful digital experiences. 
+                                With over 5 years of experience in UI/UX design, branding, and digital strategy, 
+                                I help brands tell their stories through thoughtful design.
+                            </p>
+                            <div class="hero-buttons">
+                                <button class="btn btn-primary">View Projects</button>
+                                <button class="btn btn-outline">Get in Touch</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="https://images.unsplash.com/photo-1564518534518-e79657852a1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMGRlc2lnbmVyJTIwcG9ydHJhaXQlMjBwcm9mZXNzaW9uYWx8ZW58MXx8fHwxNzU1OTMwMzgxfDA&ixlib=rb-4.1.0&q=80&w=1080" 
+                             alt="Zola Becker" class="profile-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Projects</h2>
+                    <p class="section-description">
+                        A collection of my recent work spanning digital design, branding, and strategy projects.
+                    </p>
+                </div>
+                
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1630522790858-50b4ef44944b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWIlMjBkZXNpZ24lMjBtb2NrdXB8ZW58MXx8fHwxNzU1OTE5OTE3fDA&ixlib=rb-4.1.0&q=80&w=1080" 
+                                 alt="E-commerce Redesign">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-badge">UI/UX Design</span>
+                            <h3 class="project-title">E-commerce Redesign</h3>
+                            <p class="project-description">Complete redesign of an e-commerce platform focusing on user experience and conversion optimization.</p>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1649000808933-1f4aac7cad9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxicmFuZGluZyUyMGRlc2lnbiUyMHByb2plY3R8ZW58MXx8fHwxNzU1ODU2ODQ4fDA&ixlib=rb-4.1.0&q=80&w=1080" 
+                                 alt="Brand Identity System">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-badge">Branding</span>
+                            <h3 class="project-title">Brand Identity System</h3>
+                            <p class="project-description">Comprehensive brand identity design including logo, typography, and visual guidelines.</p>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1658953229625-aad99d7603b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzU1OTI2NDQxfDA&ixlib=rb-4.1.0&q=80&w=1080" 
+                                 alt="Mobile App Interface">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-badge">App Design</span>
+                            <h3 class="project-title">Mobile App Interface</h3>
+                            <p class="project-description">Modern mobile application design with focus on intuitive navigation and accessibility.</p>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1742440710226-450e3b85c100?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZXNpZ24lMjB0ZWFtJTIwY29sbGFib3JhdGlvbnxlbnwxfHx8fDE3NTU5NjAyMzZ8MA&ixlib=rb-4.1.0&q=80&w=1080" 
+                                 alt="Digital Strategy Guide">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-badge">Strategy</span>
+                            <h3 class="project-title">Digital Strategy Guide</h3>
+                            <p class="project-description">Strategic design thinking and implementation guide for digital transformation.</p>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1649000808933-1f4aac7cad9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxicmFuZGluZyUyMGRlc2lnbiUyMHByb2plY3R8ZW58MXx8fHwxNzU1ODU2ODQ4fDA&ixlib=rb-4.1.0&q=80&w=1080" 
+                                 alt="Typography System">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-badge">Design System</span>
+                            <h3 class="project-title">Typography System</h3>
+                            <p class="project-description">Comprehensive typography system for consistent brand communication.</p>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1630522790858-50b4ef44944b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWIlMjBkZXNpZ24lMjBtb2NrdXB8ZW58MXx8fHwxNzU1OTE5OTE3fDA&ixlib=rb-4.1.0&q=80&w=1080" 
+                                 alt="Packaging Design">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-badge">Print Design</span>
+                            <h3 class="project-title">Packaging Design</h3>
+                            <p class="project-description">Creative packaging design that stands out on shelves and communicates brand values.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Client Section -->
+        <section class="client-section">
+            <div class="container">
+                <div class="client-item client-blue">
+                    <div class="client-grid">
+                        <div class="client-content">
+                            <h2 class="client-title">Iconography Co.</h2>
+                            <p class="client-description">
+                                Brand redesign and digital strategy for a growing tech startup focusing on iconography solutions.
+                            </p>
+                            <div class="client-projects">
+                                <div class="client-project">
+                                    <span class="project-number">01</span>
+                                    <span class="project-name">Brand Identity</span>
+                                </div>
+                                <div class="client-project">
+                                    <span class="project-number">02</span>
+                                    <span class="project-name">Website Design</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-outline">View Case Study</button>
+                        </div>
+                        <div class="client-image">
+                            <img src="https://images.unsplash.com/photo-1658953229625-aad99d7603b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzU1OTI2NDQxfDA&ixlib=rb-4.1.0&q=80&w=1080" 
+                                 alt="Iconography Co. project">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="client-item client-green">
+                    <div class="client-grid">
+                        <div class="client-content">
+                            <h2 class="client-title">Schematiq</h2>
+                            <p class="client-description">
+                                Complete digital transformation including web platform design and user experience optimization.
+                            </p>
+                            <div class="client-projects">
+                                <div class="client-project">
+                                    <span class="project-number">01</span>
+                                    <span class="project-name">Platform Design</span>
+                                </div>
+                                <div class="client-project">
+                                    <span class="project-number">02</span>
+                                    <span class="project-name">UX Research</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-outline">View Case Study</button>
+                        </div>
+                        <div class="client-image">
+                            <img src="https://images.unsplash.com/photo-1649000808933-1f4aac7cad9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxicmFuZGluZyUyMGRlc2lnbiUyMHByb2plY3R8ZW58MXx8fHwxNzU1ODU2ODQ4fDA&ixlib=rb-4.1.0&q=80&w=1080" 
+                                 alt="Schematiq project">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="client-item client-purple">
+                    <div class="client-grid">
+                        <div class="client-content">
+                            <h2 class="client-title">Sprig & Sky</h2>
+                            <p class="client-description">
+                                Creative direction and brand development for a sustainable lifestyle company with focus on natural products.
+                            </p>
+                            <div class="client-projects">
+                                <div class="client-project">
+                                    <span class="project-number">01</span>
+                                    <span class="project-name">Brand Strategy</span>
+                                </div>
+                                <div class="client-project">
+                                    <span class="project-number">02</span>
+                                    <span class="project-name">Digital Presence</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-outline">View Case Study</button>
+                        </div>
+                        <div class="client-image">
+                            <img src="https://images.unsplash.com/photo-1630522790858-50b4ef44944b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWIlMjBkZXNpZ24lMjBtb2NrdXB8ZW58MXx8fHwxNzU1OTE5OTE3fDA&ixlib=rb-4.1.0&q=80&w=1080" 
+                                 alt="Sprig & Sky project">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services-section">
+            <div class="container">
+                <div class="services-header">
+                    <div class="services-intro">
+                        <h2 class="section-title">Services</h2>
+                        <p class="services-description">
+                            I offer comprehensive design services to help your brand stand out and connect with your audience through thoughtful, strategic design solutions.
+                        </p>
+                        <button class="btn btn-primary">Start a Project</button>
+                    </div>
+                    <div class="services-image">
+                        <img src="https://images.unsplash.com/photo-1742440710226-450e3b85c100?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZXNpZ24lMjB0ZWFtJTIwY29sbGFib3JhdGlvbnxlbnwxfHx8fDE3NTU5NjAyMzZ8MA&ixlib=rb-4.1.0&q=80&w=1080" 
+                             alt="Design collaboration">
+                    </div>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3 class="service-title">Brand Identity</h3>
+                        <p class="service-description">Complete brand identity design including logo creation, color palettes, typography systems, and brand guidelines.</p>
+                        <ul class="service-features">
+                            <li>Logo Design</li>
+                            <li>Brand Guidelines</li>
+                            <li>Typography Systems</li>
+                            <li>Color Strategy</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-card">
+                        <h3 class="service-title">UI/UX Design</h3>
+                        <p class="service-description">User-centered design approach for web and mobile applications with focus on usability and conversion optimization.</p>
+                        <ul class="service-features">
+                            <li>User Research</li>
+                            <li>Wireframing</li>
+                            <li>Prototyping</li>
+                            <li>User Testing</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-card">
+                        <h3 class="service-title">Digital Strategy</h3>
+                        <p class="service-description">Strategic planning and consultation for digital transformation, helping brands navigate the digital landscape effectively.</p>
+                        <ul class="service-features">
+                            <li>Strategy Planning</li>
+                            <li>Competitive Analysis</li>
+                            <li>Digital Audit</li>
+                            <li>Growth Planning</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-card">
+                        <h3 class="service-title">Design Systems</h3>
+                        <p class="service-description">Scalable design systems that ensure consistency across all touchpoints and enable efficient design and development workflows.</p>
+                        <ul class="service-features">
+                            <li>Component Libraries</li>
+                            <li>Style Guides</li>
+                            <li>Documentation</li>
+                            <li>Team Training</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2 class="contact-title">Let's work together</h2>
+                        <p class="contact-description">
+                            Have a project in mind? I'd love to hear about your ideas and see how we can bring them to life through thoughtful design.
+                        </p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect width="20" height="16" x="2" y="4" rx="2"/>
+                                    <path d="m22 7-10 5L2 7"/>
+                                </svg>
+                                <span>hello@Freelancer.com</span>
+                            </div>
+                            <div class="social-links">
+                                <a href="https://www.linkedin.com/in/maheswar-sahoo-185867302?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+
+                                        <rect width="4" height="12" x="2" y="9"/>
+                                        <circle cx="4" cy="4" r="2"/>
+                                    </svg>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/>
+                                    </svg>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+                                        <path d="m16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                        <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrapper">
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-row">
+                                <input type="text" name="name" placeholder="Your name" required class="form-input">
+                                <input type="email" name="email" placeholder="Your email" required class="form-input">
+                            </div>
+                            <input type="text" name="subject" placeholder="Subject" required class="form-input">
+                            <textarea name="message" placeholder="Tell me about your project..." rows="6" required class="form-textarea"></textarea>
+                            <button type="submit" class="btn btn-secondary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="footer">
+                    <p>&copy; 2025 Freelancer . All rights reserved.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>

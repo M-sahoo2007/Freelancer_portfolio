@@ -1,0 +1,212 @@
+/* Tablet Styles */
+@media (min-width: 768px) {
+    .container {
+        padding: 0 2rem;
+    }
+
+    .nav-desktop {
+        display: flex;
+    }
+
+    .menu-btn {
+        display: none;
+    }
+
+    .hero-title {
+        font-size: 4rem;
+    }
+
+    .hero-buttons {
+        flex-direction: row;
+    }
+
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .client-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .services-header {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .form-row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+    .hero-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .projects-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .hero-title {
+        font-size: 5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.5rem;
+    }
+}
+
+/* Large Desktop Styles */
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+
+    .hero-title {
+        font-size: 6rem;
+    }
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 767px) {
+    .hero-section {
+        padding: 6rem 0 2rem;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+    }
+
+    .client-item {
+        padding: 2rem;
+    }
+
+    .services-header {
+        text-align: left;
+    }
+
+    .services-description {
+        font-size: 1rem;
+    }
+
+    .profile-image {
+        width: 16rem;
+        height: 20rem;
+    }
+
+    .client-image img {
+        height: 12rem;
+    }
+
+    .services-image img {
+        height: 16rem;
+    }
+}
+
+/* Small mobile adjustments */
+@media (max-width: 480px) {
+    .container {
+        padding: 0 1rem;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .section-title {
+        font-size: 1.75rem;
+    }
+
+    .client-title {
+        font-size: 1.5rem;
+    }
+
+    .profile-image {
+        width: 14rem;
+        height: 18rem;
+    }
+
+    .client-item {
+        padding: 1.5rem;
+    }
+
+    .service-card {
+        padding: 1.25rem;
+    }
+
+    .contact-section {
+        padding: 3rem 0;
+    }
+}
+
+/* Navigation mobile menu animation */
+@media (max-width: 767px) {
+    .nav-mobile {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+    }
+
+    .nav-mobile.show {
+        max-height: 300px;
+    }
+}
+
+/* Hover effects for touch devices */
+@media (hover: hover) {
+    .project-card:hover {
+        transform: translateY(-4px);
+    }
+
+    .service-card:hover {
+        transform: translateY(-2px);
+    }
+}
+
+/* Print styles */
+@media print {
+    .header {
+        position: static;
+        background: none;
+        border: none;
+    }
+
+    .menu-btn {
+        display: none;
+    }
+
+    .nav-mobile {
+        display: none;
+    }
+
+    .hero-section {
+        background: none;
+        padding: 2rem 0;
+    }
+
+    .contact-section {
+        background: none;
+        color: var(--foreground);
+    }
+
+    .btn {
+        border: 1px solid var(--border);
+    }
+}
